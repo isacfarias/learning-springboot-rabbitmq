@@ -1,0 +1,13 @@
+package com.farias.consomerapi;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ConsomerApiApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
