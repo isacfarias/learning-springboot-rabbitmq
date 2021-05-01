@@ -1,7 +1,4 @@
 spring:
-  profiles:
-    active: hello-world, receiver
-    
   rabbitmq:
     host: localhost
     port: 5672
