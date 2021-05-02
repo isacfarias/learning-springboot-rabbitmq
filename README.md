@@ -5,6 +5,7 @@ https://emmanuelneri.com.br/2018/03/07/rabbitmq-no-spring-boot/ </br>
 https://www.rabbitmq.com/tutorials/tutorial-one-python.html </br>
 https://www.rabbitmq.com/tutorials/tutorial-two-python.html </br>
 https://www.rabbitmq.com/tutorials/tutorial-three-spring-amqp.html</br>
+https://www.rabbitmq.com/tutorials/tutorial-four-spring-amqp.html</br>
 
 ## Docker Image de RabbitMQ
 
@@ -16,5 +17,7 @@ docker run -d -p 5672:5672 -p 15672:15672 --name=rabbitmq rabbitmq:3.8.3-managem
 
 ## Para a execução dos projeto segue as combinações
 
+- producer-api e consomer-api: funcionam em conjunto, trata se do artigo publicado no medium da totvs
 - tutorialOne and tutorialTwo: funciona como producer e consomer, estes englobam os tutorias de one e two da pagina do rabbitMQ sobre tutoriais para spring 
 - tutorialThree and tutorialFoour: funciona como producer e consomer este englobam o tutorial three de rabbitMQ para spring
+- tutoriaFive and tutorialSix: funciona como producer e consomer este englobam o tutorial fuor de rabbitMQ para spring
